@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --orange: #ff7200;
+  --white: #fff;
+}
+.logo {
+  color: var(--orange);
+}
+.navbar {
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(assets/1.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.menu ul li {
+  padding: 0 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: var(--white);
+}
+.search {
+  margin-top: 5px;
+}
+.menu ul li a:hover {
+  color: #ff7200;
+}
+.menu ul li a:active {
+  border-bottom: 2px solid #ff7200;
+}
+
+.search-btn {
+  position: relative;
+  right: 75px;
+  padding: 5px 15px;
+  background-color: var(--orange);
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+}
+
+input[type="search"] {
+  width: 250px;
+  height: 27px;
+  border: 1px solid #ff7200;
+  padding: 10px;
+  outline: #ff7200;
+}
+.join-us-btn {
+  margin-top: 15px;
+  background: var(--orange);
+  padding: 5px 12px;
+  border: none;
+  border-radius: 7px;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 90px;
+  padding: 0 100px;
+}
+.heading-1 {
+  color: var(--white);
+}
+.dev {
+  color: var(--orange);
+}
+.pair {
+  color: #fff;
+  font-size: 18px;
+  width: 60%;
+  word-spacing: 1.8;
+  font-family: "arial" sans-serif;
+}
+input[type="email"],
+input[type="password"] {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 27px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid #ff7200;
+  font-size: 16px;
+}
+.link a {
+  text-decoration: none;
+  color: var(--orange);
+  background-color: #fff;
+  padding: 9px 88px;
+  border-radius: 7px;
+}
+p {
+  color: #fff;
+  font-family: "arial" sans-serif;
+  margin-top: 5px;
+}
+span {
+  color: var(--orange);
+}
+.social i {
+  color: #fff;
+  padding: 8px 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login {
+  padding: 8px 108px;
+  border-radius: 7px;
+  background-color: var(--orange);
+  border: none;
+}
+.form-elem {
+  background-color: black;
+  width: 400px;
+  height: 320px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
